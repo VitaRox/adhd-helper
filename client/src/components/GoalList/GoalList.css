@@ -1,0 +1,19 @@
+.goal-list {
+    list-style: none;
+    margin: 2rem;
+    padding: 0;
+    background-color: mediumblue;
+    border-color: black;
+    border-inline-width: 100px;
+
+}
+
+.goal-list li {
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-style: groove;
+    background-color: blueviolet;
+    padding: 1rem;
+    width: match-parent;
+    margin-bottom: -0.2rem;
+}

@@ -1,0 +1,18 @@
+.App {
+    align-items: center;
+    text-align: center;
+}
+
+
+.course-goals {
+    justify-content: center; 
+    display: inline-block;
+    width: 50%;
+    background-color: blanchedalmond;
+    border-color: darkgreen;
+    border-style: groove;
+    box-sizing: border-box;
+    background-origin: padding-box; 
+    font-style: oblique;
+    font-size: xx-large;
+};
