@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './NewGoal.css';
-import GoalList from '../GoalList/GoalList';
 
 const NewGoal = props => {
 
-  const [enteredText, setEnteredText] = "";
+  const [enteredText, setEnteredText] = useState("");
 
   // Creates the newGoal, stores in memory;
   const addGoalHandler = event => {

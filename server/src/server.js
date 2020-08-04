@@ -4,7 +4,7 @@ const port = 8000;
 
 //
 app.get(`/`, (req, res) => {
-  res.sendFile(`../../../client/src/App.js`);
+  res.sendFile(path.join(__dirname, "src", "App.js"));
 });
 
 

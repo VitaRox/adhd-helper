@@ -1,3 +1,5 @@
+// TODO: remove this 'react-devtools' import before production build;
+import 'react-devtools';
 import React, { useState } from 'react';
 import './App.css';
 import GoalList from './components/GoalList/GoalList';
@@ -6,10 +8,14 @@ import NewGoal from './components/NewGoal/NewGoal';
 const App = () => {
 
   // Declare courseGoals State hook;
+  // const [courseGoals, setCourseGoals] = useState([
+  //   { id: 'cg1', text: "Learn the Topic" },
+  //   { id: 'cg2', text: "Learn the Topics" },
+  //   { id: 'cg3', text: "Help other students in the course Q & A" }
+  // ]);
+
   const [courseGoals, setCourseGoals] = useState([
-    { id: 'cg1', text: "Learn the Topic" },
-    { id: 'cg2', text: "Learn the Topics" },
-    { id: 'cg3', text: "Help other students in the course Q & A" }
+    { id: 'cg0', text: "Please enter an item." },
   ]);
 
   const addNewGoalHandler = newGoal => {

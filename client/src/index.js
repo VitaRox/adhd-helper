@@ -1,3 +1,5 @@
+// TODO: remove this 'react-devtools' import before production build;
+import 'react-devtools';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
